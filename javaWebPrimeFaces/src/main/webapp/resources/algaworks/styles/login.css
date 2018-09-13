@@ -1,0 +1,108 @@
+body{
+    background-color: #3969b2 /*#11a6d4*/;
+}
+
+#login-box{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 380px;
+    height: 260px;
+    margin: 140px auto 0px;
+    border-radius: 5px;
+}
+
+#login-box-interno{
+    background-color: #fdfdfd;
+    width: 360px;
+    height: 240px;
+    position: absolute;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    overflow: hidden;
+}
+
+#login-box-label{
+    height: 40px;
+    text-align: center;
+    font: bold 14px/45px sans-serif;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: rgb(238,238,238);
+    background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+
+    border-bottom: 1px solid #bfc3c5;
+    box-shadow: 1px 0px 3px #dedede;
+    color: #555555;
+    text-shadow: 1px 0px 1px #bfc3c5;
+}
+
+.input-div{
+    margin: 20px;
+    padding: 5px;
+    background-color: #f2f5f7;
+    border-radius: 5px;
+}
+
+.input-div input{
+    width:302px;
+    height: 35px;
+    padding-left: 5px;
+    font: normal 13px sans-serif;
+    color: #aeaeae;
+    border-radius: 3px;
+    border: 1px solid #bfc4c6;
+    outline: none;
+}
+
+.input-div:hover{
+    background-color: #e0f1fc;
+}
+
+.input-div:hover input{
+    border-color: #7dc6dd;
+}
+
+#input-senha{
+    margin-top: -10px;
+}
+
+#botoes{
+    width:310px;
+    margin-left:25px;
+}
+
+#botao{
+    float: right;
+    background-color: red;
+    padding: 5px 15px;
+    font: bold 12px sans-serif;
+    border-radius: 20px;
+    text-shadow: 0px 1px 0px white;
+    border: 1px solid #9eb9c3;
+
+    background: rgb(233,246,253); 
+    background: -moz-linear-gradient(top, rgba(233,246,253,1) 0%, rgba(211,238,251,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(233,246,253,1) 0%,rgba(211,238,251,1) 100%);
+    background: linear-gradient(to bottom, rgba(233,246,253,1) 0%,rgba(211,238,251,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9f6fd', endColorstr='#d3eefb',GradientType=0 );
+
+    color: #527988;
+    box-shadow: 0px 0px 10px #c9c9c9;
+}
+
+#botao:hover{
+    background: rgb(211,238,251);
+    background: -moz-linear-gradient(top, rgba(211,238,251,1) 0%, rgba(233,246,253,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(211,238,251,1) 0%,rgba(233,246,253,1) 100%);
+    background: linear-gradient(to bottom, rgba(211,238,251,1) 0%,rgba(233,246,253,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3eefb', endColorstr='#e9f6fd',GradientType=0 );
+
+    cursor:pointer;
+}
+
+#lembrar-senha{
+    font: normal 12px sans-serif;
+}
